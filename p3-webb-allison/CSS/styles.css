@@ -1,0 +1,169 @@
+/*
+*
+*
+*Universal Styling
+*
+*
+*
+ }
+*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  background: #99dfec;
+}
+
+
+header{
+  background-color: #99dfec;
+  border-style: solid;
+  color: #0292b8;
+  border-width: 10px;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-radius: 25px;
+  font-family: 'Sacramento', cursive;
+
+
+}
+
+
+h1 {
+    color: #f9fafd;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 8px #edc9e8;
+}
+
+nav {
+    color: #f9fafd;
+    text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: #f9fafd;
+  padding: 20px
+}
+
+a:hover {
+  color: #edc9e8;
+}
+
+
+
+footer{
+  border-style: solid;
+  color: #0292b8;
+  border-width: 10px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5px, 5px;
+  position: fixed;
+  bottom:0px;
+  width: 100%;
+  background-color: #99dfec;
+}
+
+.footerimg {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  display: inline-block;
+  }
+
+
+
+/*--Index--*/
+
+
+
+
+.paragraph{
+  text-align: center;
+  margin: 50px;
+}
+
+p{
+  margin: 50px;
+  color: #f9fafd;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+.picture {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    float: left;
+    padding: 20px;
+}
+
+.main {
+    padding-top: 150px;
+}
+
+/*--About--*/
+
+p::first-letter{
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.section{
+  display: inline-block;
+  padding-top: 50px;
+
+}
+
+h2,h3,h4,h5 {
+  text-align: center;
+  color: #0292b8;
+  font-size: 30px;
+  font-family: 'Sacramento', cursive;
+}
+
+/*--Destin Life--*/
+
+.gallery {
+    padding-top: 220px;
+}
+
+/*--Form--*/
+
+.form {
+    padding-top: 250px;
+}
+
+main{
+  text-align: center;
+}
+
+label{
+  color: #0292b8;
+}
+
+.fountain {
+  padding-left: 650px;
+  float: right;
+  animation-name: spout;
+  animation-duration: 5s;
+}
+
+@keyframes spout {
+  from {
+    transform:translateY(100px);
+    to{
+      transform: translateY(500px);
+    }
+.
